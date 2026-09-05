@@ -1,7 +1,4 @@
 # Bài tập 1: Trang giới thiệu bản thân (CV Cá Nhân)
-
-Đây là mã nguồn cho Bài tập thực hành 1 môn Lập trình Web.
-
 ## Thông tin sinh viên
 - **Họ và tên:** Ngô Thế Dương
 - **Mã sinh viên:** B25DCTV020
@@ -23,6 +20,27 @@ Dự án là một trang web dạng CV cá nhân đơn giản, được xây d�
 - `style.css`: Định dạng giao diện, màu sắc, font chữ.
 - `script.js`: Xử lý logic lời chào và chức năng đổi màu nền.
 - `e788eb5b-7122-46da-97f6-51a068d70cc4.jpg`: Ảnh chân dung cá nhân (nằm cùng thư mục).
+# Bài tập 2: Máy tính đơn giản (Calculator)
+## Mô tả dự án
+Dự án là một ứng dụng máy tính cầm tay đơn giản, giao diện được thiết kế theo phong cách Dark Mode (tương tự Calculator của Windows) bằng CSS Grid.
+
+## Các chức năng chính
+- **Giao diện (HTML/CSS):** Hiển thị màn hình kết quả và lưới các nút bấm.
+- **Thao tác DOM & Sự kiện (JavaScript):**
+  - Lắng nghe sự kiện `click` trên tất cả các nút bấm bằng `addEventListener`.
+  - Nối số và phép tính trực tiếp lên màn hình thông qua thuộc tính `.innerText`.
+  - Thực hiện tính toán chuỗi biểu thức với hàm `eval()`.
+  - Nút **Clear (C)** giúp đặt lại màn hình về 0.
+
+## Cấu trúc file
+- `calculator.html`: Cấu trúc bộ khung giao diện của máy tính.
+- `style.css`: Định dạng giao diện màu tối (Dark Mode), xử lý hiệu ứng hover và lưới hiển thị.
+- `script.js`: Xử lý logic toán học và các tương tác của người dùng.
+
+## Hướng dẫn sử dụng
+1. Tải toàn bộ mã nguồn về cùng một thư mục.
+2. Click đúp vào file `calculator.html` để mở bằng trình duyệt (Chrome, Edge, Cốc Cốc...).
+3. Bấm các nút số và phép tính để trải nghiệm.
 
 ## Hướng dẫn sử dụng
 1. Tải (hoặc clone) toàn bộ mã nguồn về máy tính.
